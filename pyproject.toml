@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-extra-terminal"
+version = "1.0.0"
+authors = [
+  { name = "Tolga Kurtulus", email = "tolgakurtulus95@gmail.com" },
+]
+description = "A Python wrapper for Attachmate EXTRA! X-treme terminal automation."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "pywin32>=300",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tolgakurtuluss/py-extra-terminal"
+"Bug Tracker" = "https://github.com/tolgakurtuluss/py-extra-terminal/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
