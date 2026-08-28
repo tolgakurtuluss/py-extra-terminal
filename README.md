@@ -9,6 +9,9 @@
 It provides a high-level, Pythonic wrapper around the `EXTRA.System` COM/OLE Automation interface.
 
 > Disclaimer : This framework is not associated with Attachmate Corporation or Micro Focus.
+> 
+> Formerly developed under [py-troya-connect](https://github.com/tolgakurtuluss/py-troya-connect) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/py-troya-connect?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/py-troya-connect) repository that has archived.
+
 
 
 
