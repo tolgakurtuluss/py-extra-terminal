@@ -1,5 +1,5 @@
 
-# py-extra-terminal [![py-extra-terminal](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](https://github.com/tolgakurtuluss/py-extra-terminal#readme)
+# py-extra-terminal [![py-extra-terminal](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](https://github.com/tolgakurtuluss/py-extra-terminal#readme) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/py-extra-terminal?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/py-extra-terminal) 
 
 
 > <img src="https://img.informer.com/icons/png/128/1640/1640832.png" align="right"/>
