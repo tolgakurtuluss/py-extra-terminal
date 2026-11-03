@@ -41,7 +41,7 @@ The `py-extra-terminal` library provides intuitive methods for terminal interact
 The `Extra` class is your entry point. It manages the connection to the Attachmate EXTRA! System.
 
 ```python
-from py_extra import Extra
+from py_extra_terminal import Extra
 
 with Extra() as ex:
     # Use the currently active window
@@ -77,7 +77,7 @@ Interaction is fluent and supports coordinate-based or cursor-relative writing.
 sc.move(12, 40).put("MY_DATA", 12, 40)
 
 # Send special keys from the keys module
-from py_extra import keys
+from py_extra_terminal import keys
 sc.send(keys.PF3).wait_quiet()
 
 # Convenience: Write + Enter + Wait in one call
@@ -105,7 +105,7 @@ if sc.is_locked:
 ## Quick Start Example
 
 ```python
-from py_extra import Extra, keys
+from py_extra_terminal import Extra, keys
 
 with Extra() as ex:
     sess = ex.active_session
@@ -125,7 +125,7 @@ with Extra() as ex:
 ### Scraping a List
 
 ```python
-from py_extra import Extra, keys
+from py_extra_terminal import Extra, keys
 
 with Extra() as ex:
     sc = ex.active_session.screen
@@ -148,7 +148,7 @@ with Extra() as ex:
 
 ## Special Keys
 
-Special terminal keys are available in the `py_extra.keys` module:
+Special terminal keys are available in the `py_extra_terminal.keys` module:
 
 - `keys.ENTER`
 - `keys.TAB`, `keys.BACKTAB`
